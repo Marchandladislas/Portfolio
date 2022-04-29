@@ -1,0 +1,54 @@
+.neon {
+    color: #fff;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #4298ca,
+      0 0 20px #4298ca,
+      0 0 40px #4298ca,
+      0 0 80px #4298ca,
+      0 0 90px #0ff,
+      0 0 150px #4298ca;
+  }
+  
+  
+  /* general styling */
+  :root {
+    font-size: calc(1vw + 1vh + 1.5vmin);
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container {
+    margin: auto;
+  }
+  
+  body {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: linear-gradient(90deg, #73106d, rgba(115, 16, 109) 55%, rgba(0,212,255,1) 100%);
+    background-color: #00DBDE;
+  background-image: linear-gradient(249deg, #4298ca 0%,  #73106d 70%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: -apple-system, 
+      BlinkMacSystemFont, 
+      "Segoe UI", 
+      Roboto, 
+      Oxygen-Sans, 
+      Ubuntu, 
+      Cantarell, 
+      "Helvetica Neue", 
+      sans-serif;
+    font-size: 1rem;
+  }
+  
+  h1 {
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+  }
